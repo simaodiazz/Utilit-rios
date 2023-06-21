@@ -1,0 +1,15 @@
+{
+  "name": "utilitarios",
+  "version": "1.0.0",
+  "main": "./dist/main.js",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.0.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "tsc-watch": "^6.0.4",
+    "typescript": "^5.1.3"
+  }
+}
