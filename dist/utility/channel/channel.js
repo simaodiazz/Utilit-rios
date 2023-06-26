@@ -1,10 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Channel = exports.channels = void 0;
-exports.channels = new Map();
+exports.Channel = void 0;
+const channel_container_1 = require("./channel.container");
 function Channel(options) {
     return function (target) {
-        exports.channels.set(options.id, options);
+        channel_container_1.channels.set(options.id, options);
     };
 }
 exports.Channel = Channel;
