@@ -1,7 +1,7 @@
 {
   "name": "utilitarios",
   "version": "1.0.0",
-  "main": "./dist/main.js",
+  "main": "./dist/app/main.js",
   "license": "MIT",
   "dependencies": {
     "discord.js": "^14.0.0",
